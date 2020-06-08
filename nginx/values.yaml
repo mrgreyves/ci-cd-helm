@@ -1,0 +1,4 @@
+nginx:
+  image_tag: 1.19.0
+  replica_count: 3
+  ingress_host: nginx.172.17.0.3.nip.io
