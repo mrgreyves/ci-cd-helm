@@ -4,7 +4,7 @@ metadata:
   name: nginx-service
 spec:
   selector:
-    app: nginx
+    app: front-nginx
   ports:
     - name: nginx-port
       protocol: TCP
